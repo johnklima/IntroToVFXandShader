@@ -39,6 +39,14 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _AmbientOcclusion:
+        m_Texture: {fileID: 2800000, guid: 6d4a9179f8f7910418bdc111c8539ca5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: 3f90d533f7c13744982a60837ac1602a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _baseTexture:
         m_Texture: {fileID: 2800000, guid: 37ffde3a8a9b4bc4796c432f6591952a, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -67,6 +75,7 @@ Material:
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EdgeWidth: 0.047
+    - _Metalic: 0
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
