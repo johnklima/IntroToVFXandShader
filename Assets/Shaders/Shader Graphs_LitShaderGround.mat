@@ -41,6 +41,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 59d69bf573a8c38448bf981070b89bc0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Metalic:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Normal:
         m_Texture: {fileID: 2800000, guid: 2717ed7a54cd88043aec97f2997304d8, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -71,8 +75,9 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
+    - _Emission: {r: 0.040557515, g: 0.037305187, b: 0.005739265, a: 1}
     - _GroundTint: {r: 0.6804811, g: 1.39772, b: 0.08570929, a: 1}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
-    - _Tiling: {r: 1, g: 1, b: 0, a: 0}
+    - _Tiling: {r: 10, g: 10, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
